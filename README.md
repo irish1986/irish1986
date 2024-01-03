@@ -31,7 +31,7 @@ Solution Architect specializing in designing, building, and automating robust pl
 
 This year I am embarking on a personal challenge to commits at least five time a week, regardless of the complexity and size of it.  The goal is to do it often and regularly to learn.
 
-### Complete my homelab
+### My homelab
 
 My homelab has been a project going on for over a decades emerging from a single Synology device to a full blown cluster system.  My goal is to learn architecture, infrastructure as code and deploy all services on a Kubernetes cluster managed via GitOps.
 
