@@ -21,18 +21,19 @@ Solution Architect specializing in designing, building, and automating robust pl
 
 <div align="center">
 
-![](https://github-readme-stats.vercel.app/api?username=Irish1986&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
-![](https://github-readme-streak-stats.herokuapp.com/?user=Irish1986&theme=dark&hide_border=false)
+<img src="https://raw.githubusercontent.com/Irish1986/Irish1986/output/snake.svg" alt="Snake animation" />
 
 </div>
 
-## 2024 - Year of Commits
+## Goals
+
+### Year of Commits
 
 This year I am embarking on a personal challenge to commits at least five time a week, regardless of the complexity and size of it.  The goal is to do it often and regularly to learn.
 
-<br clear="both">
+### Complete my homelab
 
-<img src="https://raw.githubusercontent.com/Irish1986/Irish1986/output/snake.svg" alt="Snake animation" />
+My homelab has been a project going on for over a decades emerging from a single Synology device to a full blown cluster system.  My goal is to learn architecture, infrastructure as code and deploy all services on a Kubernetes cluster managed via GitOps.
 
 ## Get In Touch @[IrishLab](https://about.irishlab.io)
 
