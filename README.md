@@ -29,7 +29,7 @@ Solution Architect specializing in designing, building, and automating robust pl
 
 ### Year of Commits
 
-This year I am embarking on a personal challenge to commits at least five time a week, regardless of the complexity and size of it.  The goal is to do it often and regularly to learn.
+This year I am embarking on a personal challenge to commits at least five time a week, regardless of the complexity and size of it.  The goal is to do it often and regularly to learn.  **Family comes first and it has been difficult to spend time working on my personal project, so my commits are down.  It is a journey not a destination.**
 
 ### My homelab
 
