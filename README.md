@@ -35,6 +35,6 @@ This year I am embarking on a personal challenge to commits at least five time a
 
 My homelab has been a project going on for over a decades emerging from a single Synology device to a full blown cluster system.  My goal is to learn architecture, infrastructure as code and deploy all services on a Kubernetes cluster managed via GitOps.
 
-## Get In Touch @[IrishLab](https://about.irishlab.io)
+## Get In Touch @[irishLab.io](https://about.irishlab.io)
 
 Interested in collaborating or discussing opportunities? I'd love to connect!
