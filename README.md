@@ -1,8 +1,8 @@
 # I'm Simon HARVEY (Irish1986)
 
-## Currently | Solution Architect
+## Currently | DevSecOps - AppSec Expert
 
-Solution Architect specializing in designing, building, and automating robust platforms in the Aerospace & Defense.
+AppSec Expert specializing in designing, building, and automating robust platforms in the Financial sector.
 
 ## Tech Stack
 
