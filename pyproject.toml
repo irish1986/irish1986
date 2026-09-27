@@ -1,0 +1,17 @@
+[project]
+name = "history"
+version = "0.1.0"
+description = "Generate backdated commits to fill a GitHub contribution graph"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+history = "history.main:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["uv_build>=0.8,<0.12"]
+build-backend = "uv_build"

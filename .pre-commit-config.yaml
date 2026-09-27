@@ -1,31 +1,48 @@
 ---
+# pre-commit install --allow-missing-config
+# pre-commit autoupdate
+# pre-commit run --all-files --color auto
+exclude: |
+  (?x)^(
+    \.pre-commit-config\.yaml$
+  )
 fail_fast: false
-ci:
-  autoupdate_schedule: monthly
+default_stages:
+  - pre-commit
+default_install_hook_types:
+  - commit-msg
+  - pre-commit
 repos:
-  - repo: https://github.com/adrienverge/yamllint
-    rev: v1.33.0
+  - repo: meta
     hooks:
-      - id: yamllint
-        args:
-          - --config-file
-          - .config/.yamllint.yaml
+      - id: identity
+        name: "meta | pre-commit hooks"
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v4.18.1
+    hooks:
+      - id: commitizen
+        fail_fast: true
+        name: "commitizen | validate commit messages"
+        stages:
+          - commit-msg
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v6.0.0
     hooks:
-      - id: check-merge-conflict
-      - id: detect-private-key
+      - id: check-added-large-files
+        name: "git | block large files"
+        args: [--maxkb=2048]
+        name: "general | check YAML files"
       - id: end-of-file-fixer
+        name: "general | fix end of file"
+      - id: check-executables-have-shebangs
+        name: "general | executables need a shebang"
+      - id: check-shebang-scripts-are-executable
+        name: "general | shebang scripts must be executable"
+      - id: forbid-submodules
+        name: "git | forbid submodules"
       - id: mixed-line-ending
-      - id: sort-simple-yaml
+        name: "general | fix line ending"
+        args:
+          - --fix=auto
       - id: trailing-whitespace
-        args: [--markdown-linebreak-ext=md]
-  - repo: https://github.com/Lucas-C/pre-commit-hooks
-    rev: v1.5.4
-    hooks:
-      - id: remove-crlf
-      - id: remove-tabs
-  - repo: https://github.com/sirosen/fix-smartquotes
-    rev: 0.2.0
-    hooks:
-      - id: fix-smartquotes
+        name: "general | remove trailing whitespace"
