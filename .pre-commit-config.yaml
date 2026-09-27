@@ -31,6 +31,7 @@ repos:
       - id: check-added-large-files
         name: "git | block large files"
         args: [--maxkb=2048]
+      - id: check-yaml
         name: "general | check YAML files"
       - id: end-of-file-fixer
         name: "general | fix end of file"
